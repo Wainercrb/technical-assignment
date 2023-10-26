@@ -1,0 +1,67 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.wordle-page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading {
+  margin: .5em 0 ;
+}
+
+.board-row {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+.wordle-box {
+  margin-top: 0.5em;
+  border: solid 1px gainsboro;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 800;
+  font-weight: bold;
+  opacity: 0.6;
+}
+
+.wordle-box-ON-POSITION {
+    background-color: #6aaa64;
+}
+
+.wordle-box-ON-ROW {
+    background-color: #b59f3b;
+}
+
+
+.wordle-box-active {
+  border: solid 1px rgb(159, 155, 155);
+  opacity: 1;
+}
+
+.wordle-footer {
+  margin-top: .5em;
+  text-align: right;
+}
+
+.wordle-header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+
+
+

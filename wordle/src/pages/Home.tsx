@@ -1,5 +1,11 @@
+import WordleBoard from '../components/WordleBoard';
+
 function Home() {
-  return <h1>Hello World</h1>;
+  return (
+    <div className="wordle-page">
+      <WordleBoard />
+    </div>
+  );
 }
 
 export default Home;
