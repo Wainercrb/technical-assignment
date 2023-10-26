@@ -96,7 +96,7 @@ function WordleBoard(): JSX.Element {
       }
 
       // check if the last row
-      if (currentRow + 1 >= board[0].length) {
+      if (currentRow + 1 >= board.length) {
         setGameState('LOSE');
         return;
       }
@@ -148,8 +148,6 @@ function WordleBoard(): JSX.Element {
 
       const gameWord = await getRandomWord();
       const gameBoard = buildBoard(gameWord.length);
-
-      console.log(gameBoard);
 
       setBoard(gameBoard);
       setGuess(gameWord);
