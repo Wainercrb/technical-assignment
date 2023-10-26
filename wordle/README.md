@@ -11,3 +11,10 @@ This setup includes:
 * https://markus.oberlehner.net/blog/using-testing-library-jest-dom-with-vitest/
 * https://testing-library.com/docs/queries/about#priority
 * https://kentcdodds.com/blog/common-mistakes-with-react-testing-library
+
+* Final Game Preview
+
+
+
+https://github.com/Wainercrb/technical-assignment/assets/25513765/d137ce73-6a8a-4f69-a011-3d8a40d681fe
+
